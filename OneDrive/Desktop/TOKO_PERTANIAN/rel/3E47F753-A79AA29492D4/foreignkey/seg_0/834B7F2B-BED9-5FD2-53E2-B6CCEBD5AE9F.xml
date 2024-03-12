@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="834B7F2B-BED9-5FD2-53E2-B6CCEBD5AE9F" containerWithKeyObject="401C7D41-5E86-058B-6DC2-A1F93EEAE1BC" localFKIndex="E4149B39-A01B-D289-11A9-C88EF7CF7E7A" name="TB_PESANAN_TB_COSTUMER_FK">
+<createdBy>ASUS</createdBy>
+<createdTime>2024-03-12 15:25:19 UTC</createdTime>
+<generatorID>BDBEF77F-71A1-7A4E-D6E9-D51D60608B07</generatorID>
+<ownerDesignName>TOKO_PERTANIAN</ownerDesignName>
+<referredTableLongName>TB_COSTUMER</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>EE8FC567-08CE-0554-B36C-19CA59FAB76C</referredTableID>
+<keyObject>8A51CE32-6E7F-AB07-5632-123ACC16D5FB</keyObject>
+<referredKeyID>8A51CE32-6E7F-AB07-5632-123ACC16D5FB</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>Costumer_id1</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

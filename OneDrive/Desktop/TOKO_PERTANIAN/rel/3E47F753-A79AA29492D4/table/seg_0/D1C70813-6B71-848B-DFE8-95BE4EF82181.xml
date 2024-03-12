@@ -1,0 +1,98 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D1C70813-6B71-848B-DFE8-95BE4EF82181" name="TB_PEMBAYARAN">
+<createdBy>ASUS</createdBy>
+<createdTime>2024-03-12 15:25:19 UTC</createdTime>
+<generatorID>1B212042-3E43-DD95-17AC-9FDC48827F93</generatorID>
+<ownerDesignName>TOKO_PERTANIAN</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_pembayaran" id="957BBCE4-88BE-E850-B3DF-FE17B901D22C">
+<createdBy>ASUS</createdBy>
+<createdTime>2024-03-12 15:25:19 UTC</createdTime>
+<generatorID>FDD0C0EB-9A36-1B1E-3613-1AEF53329947</generatorID>
+<ownerDesignName>TOKO_PERTANIAN</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_Transaksi" id="CD0AFF88-9F0D-7641-FB3C-44221BB8F620">
+<createdBy>ASUS</createdBy>
+<createdTime>2024-03-12 15:25:19 UTC</createdTime>
+<generatorID>51709263-5414-9695-B1E9-C0C1B9C976A1</generatorID>
+<ownerDesignName>TOKO_PERTANIAN</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Moteode_Pembayaran" id="B374F5FC-6900-C680-91DB-3062F5066B07">
+<createdBy>ASUS</createdBy>
+<createdTime>2024-03-12 15:25:19 UTC</createdTime>
+<generatorID>7497438C-3F68-947C-0D85-9EC77107D20B</generatorID>
+<ownerDesignName>TOKO_PERTANIAN</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25 CHAR</dataTypeSize>
+<ownDataTypeParameters>25 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Total_Pembayaran" id="A9C01537-758D-7A38-2BF8-6E5E3016E8E4">
+<createdBy>ASUS</createdBy>
+<createdTime>2024-03-12 15:25:19 UTC</createdTime>
+<generatorID>FFD3D7A1-2B03-3D1D-6523-B86F69F0A9CB</generatorID>
+<ownerDesignName>TOKO_PERTANIAN</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TB_PRODUK_ID_Barang" id="B5DA1800-D27D-FA0D-0EF5-D54E5F7D3A37">
+<createdBy>ASUS</createdBy>
+<createdTime>2024-03-12 15:25:19 UTC</createdTime>
+<generatorID>1FDC237A-9BB6-4665-3360-E7FE6BD6762A</generatorID>
+<ownerDesignName>TOKO_PERTANIAN</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="AD064DF5-B6A6-DDCF-0890-B4D387549452" referredColumn="AA116721-9017-1505-5E67-D3DD43DA563F"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="8C3B6127-9A67-450F-76E3-CA199647C1C4" name="TB_PEMBAYARAN_PK">
+<createdBy>ASUS</createdBy>
+<createdTime>2024-03-12 15:25:19 UTC</createdTime>
+<generatorID>2AD712AE-4BFE-F3DD-0E8D-B9C69DB72B50</generatorID>
+<ownerDesignName>TOKO_PERTANIAN</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="957BBCE4-88BE-E850-B3DF-FE17B901D22C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="32C4F4E6-5EE8-FFE6-4FF1-65B261725938" name="TB_PEMBAYARAN_TB_PRODUK_FK">
+<createdBy>ASUS</createdBy>
+<createdTime>2024-03-12 15:25:19 UTC</createdTime>
+<generatorID>B53426CE-8E0A-3D73-9E5E-4C895A867F79</generatorID>
+<ownerDesignName>TOKO_PERTANIAN</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B5DA1800-D27D-FA0D-0EF5-D54E5F7D3A37"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

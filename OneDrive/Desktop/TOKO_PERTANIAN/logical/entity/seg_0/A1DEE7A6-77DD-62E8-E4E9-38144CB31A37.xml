@@ -1,0 +1,85 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="A1DEE7A6-77DD-62E8-E4E9-38144CB31A37" name="TB_PESANAN">
+<createdBy>ASUS</createdBy>
+<createdTime>2024-03-12 14:58:57 UTC</createdTime>
+<ownerDesignName>TOKO_PERTANIAN</ownerDesignName>
+<engineerTo>
+<item key="3E47F753-7566-4934-0FCC-A79AA29492D4" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_Pemesanan" id="D58506D8-0691-1C98-F8B0-B6A88C8A8019">
+<createdBy>ASUS</createdBy>
+<createdTime>2024-03-12 15:06:36 UTC</createdTime>
+<ownerDesignName>TOKO_PERTANIAN</ownerDesignName>
+<engineerTo>
+<item key="3E47F753-7566-4934-0FCC-A79AA29492D4" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Tanggal_Order" id="8B2CC931-B620-717D-31C5-BB42428CD705">
+<createdBy>ASUS</createdBy>
+<createdTime>2024-03-12 15:06:36 UTC</createdTime>
+<ownerDesignName>TOKO_PERTANIAN</ownerDesignName>
+<engineerTo>
+<item key="3E47F753-7566-4934-0FCC-A79AA29492D4" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Costumer_id1" id="002B1C52-F27B-0854-EC5F-4F0A4A710E70">
+<createdBy>ASUS</createdBy>
+<createdTime>2024-03-12 15:21:18 UTC</createdTime>
+<generatorID>BDBEF77F-71A1-7A4E-D6E9-D51D60608B07</generatorID>
+<ownerDesignName>TOKO_PERTANIAN</ownerDesignName>
+<engineerTo>
+<item key="3E47F753-7566-4934-0FCC-A79AA29492D4" value="true"/>
+</engineerTo>
+<referedAttribute>1E1391F5-860D-87EC-181B-075926EAEAE5</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_Pegawai" id="BCC7DD11-B87B-1569-03EC-C80CB14D15EF">
+<createdBy>ASUS</createdBy>
+<createdTime>2024-03-12 15:23:03 UTC</createdTime>
+<generatorID>8E736A68-5459-4174-C0AA-A4903ADA87CD</generatorID>
+<ownerDesignName>TOKO_PERTANIAN</ownerDesignName>
+<engineerTo>
+<item key="3E47F753-7566-4934-0FCC-A79AA29492D4" value="true"/>
+</engineerTo>
+<referedAttribute>7C96390E-7929-DCA0-FFF0-439BDF9A8C37</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="9D00FDEA-C658-CEBE-D5CF-1590AA72B80C" name="TB_PESANAN PK">
+<createdBy>ASUS</createdBy>
+<createdTime>2024-03-12 15:07:16 UTC</createdTime>
+<ownerDesignName>TOKO_PERTANIAN</ownerDesignName>
+<engineerTo>
+<item key="3E47F753-7566-4934-0FCC-A79AA29492D4" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>D58506D8-0691-1C98-F8B0-B6A88C8A8019</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,96 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="447BA62B-95E4-BB85-C9C6-2662A92EA055" name="TB_PRODUK">
+<createdBy>ASUS</createdBy>
+<createdTime>2024-03-12 14:59:41 UTC</createdTime>
+<ownerDesignName>MODUL2PRAK2</ownerDesignName>
+<engineerTo>
+<item key="3E47F753-7566-4934-0FCC-A79AA29492D4" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_Barang" id="1F68BD89-198E-827A-BE05-2203DC0E252F">
+<createdBy>ASUS</createdBy>
+<createdTime>2024-03-12 15:13:54 UTC</createdTime>
+<ownerDesignName>MODUL2PRAK2</ownerDesignName>
+<engineerTo>
+<item key="3E47F753-7566-4934-0FCC-A79AA29492D4" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Nama_Barang" id="CCEA79C0-6E89-D08B-2680-B4D98126D600">
+<createdBy>ASUS</createdBy>
+<createdTime>2024-03-12 15:13:54 UTC</createdTime>
+<ownerDesignName>MODUL2PRAK2</ownerDesignName>
+<engineerTo>
+<item key="3E47F753-7566-4934-0FCC-A79AA29492D4" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25 CHAR</dataTypeSize>
+<ownDataTypeParameters>25 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Harga" id="C75778CC-5F89-C096-BA12-31BD2C2E7E80">
+<createdBy>ASUS</createdBy>
+<createdTime>2024-03-12 15:13:55 UTC</createdTime>
+<ownerDesignName>MODUL2PRAK2</ownerDesignName>
+<engineerTo>
+<item key="3E47F753-7566-4934-0FCC-A79AA29492D4" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Stok" id="B2D6B4CD-98E5-91B1-DA79-C95705A4721B">
+<createdBy>ASUS</createdBy>
+<createdTime>2024-03-12 15:14:04 UTC</createdTime>
+<ownerDesignName>MODUL2PRAK2</ownerDesignName>
+<engineerTo>
+<item key="3E47F753-7566-4934-0FCC-A79AA29492D4" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_Pemesanan" id="7D057D2C-DFDE-C41C-A95A-195B24F28D76">
+<createdBy>ASUS</createdBy>
+<createdTime>2024-03-12 15:21:59 UTC</createdTime>
+<generatorID>F3B5FD39-263E-C97B-6B38-BBA8C0FC1B64</generatorID>
+<ownerDesignName>MODUL2PRAK2</ownerDesignName>
+<engineerTo>
+<item key="3E47F753-7566-4934-0FCC-A79AA29492D4" value="true"/>
+</engineerTo>
+<referedAttribute>D58506D8-0691-1C98-F8B0-B6A88C8A8019</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="A6A94D2A-7377-5E43-1C2A-4840DE3D0BCE" name="TB_PRODUK PK">
+<createdBy>ASUS</createdBy>
+<createdTime>2024-03-12 15:14:32 UTC</createdTime>
+<ownerDesignName>MODUL2PRAK2</ownerDesignName>
+<engineerTo>
+<item key="3E47F753-7566-4934-0FCC-A79AA29492D4" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>1F68BD89-198E-827A-BE05-2203DC0E252F</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

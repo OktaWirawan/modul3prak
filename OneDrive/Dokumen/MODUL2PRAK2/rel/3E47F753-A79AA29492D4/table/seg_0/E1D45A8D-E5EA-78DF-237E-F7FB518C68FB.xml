@@ -1,0 +1,97 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E1D45A8D-E5EA-78DF-237E-F7FB518C68FB" name="TB_PRODUK">
+<createdBy>ASUS</createdBy>
+<createdTime>2024-03-12 15:25:19 UTC</createdTime>
+<generatorID>447BA62B-95E4-BB85-C9C6-2662A92EA055</generatorID>
+<ownerDesignName>MODUL2PRAK2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_Barang" id="AA116721-9017-1505-5E67-D3DD43DA563F">
+<createdBy>ASUS</createdBy>
+<createdTime>2024-03-12 15:25:19 UTC</createdTime>
+<generatorID>1F68BD89-198E-827A-BE05-2203DC0E252F</generatorID>
+<ownerDesignName>MODUL2PRAK2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nama_Barang" id="2E65D2B7-D8A7-6E6F-26D0-246EF3EF9691">
+<createdBy>ASUS</createdBy>
+<createdTime>2024-03-12 15:25:19 UTC</createdTime>
+<generatorID>CCEA79C0-6E89-D08B-2680-B4D98126D600</generatorID>
+<ownerDesignName>MODUL2PRAK2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25 CHAR</dataTypeSize>
+<ownDataTypeParameters>25 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Harga" id="7930BDD9-FC54-2141-6D66-B97EED55412A">
+<createdBy>ASUS</createdBy>
+<createdTime>2024-03-12 15:25:19 UTC</createdTime>
+<generatorID>C75778CC-5F89-C096-BA12-31BD2C2E7E80</generatorID>
+<ownerDesignName>MODUL2PRAK2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Stok" id="A6651D38-EEAE-BA23-D895-05E9F82FC80E">
+<createdBy>ASUS</createdBy>
+<createdTime>2024-03-12 15:25:19 UTC</createdTime>
+<generatorID>B2D6B4CD-98E5-91B1-DA79-C95705A4721B</generatorID>
+<ownerDesignName>MODUL2PRAK2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TB_PESANAN_ID_Pemesanan" id="682D4DF6-2CA0-3650-96B2-11AF578FA578">
+<createdBy>ASUS</createdBy>
+<createdTime>2024-03-12 15:25:19 UTC</createdTime>
+<generatorID>7D057D2C-DFDE-C41C-A95A-195B24F28D76</generatorID>
+<ownerDesignName>MODUL2PRAK2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="98A84F13-356F-5095-0AA8-1EB4685CC30A" referredColumn="28C5AD00-B6B2-42DF-A7CE-C01A5CAF011E"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="EC68D9A1-61F0-1EFE-0F5B-C91C93DE7047" name="TB_PRODUK_PK">
+<createdBy>ASUS</createdBy>
+<createdTime>2024-03-12 15:25:19 UTC</createdTime>
+<generatorID>A6A94D2A-7377-5E43-1C2A-4840DE3D0BCE</generatorID>
+<ownerDesignName>MODUL2PRAK2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AA116721-9017-1505-5E67-D3DD43DA563F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="173951F2-4899-A8CF-73B3-6014C68AFA08" name="TB_PRODUK_TB_PESANAN_FK">
+<createdBy>ASUS</createdBy>
+<createdTime>2024-03-12 15:25:19 UTC</createdTime>
+<generatorID>F3B5FD39-263E-C97B-6B38-BBA8C0FC1B64</generatorID>
+<ownerDesignName>MODUL2PRAK2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="682D4DF6-2CA0-3650-96B2-11AF578FA578"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

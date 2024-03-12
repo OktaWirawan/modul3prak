@@ -1,0 +1,98 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="47A78234-EE78-09D0-4DC3-9996F1031758" name="TB_DETAIL_PEMBAYARAN">
+<createdBy>ASUS</createdBy>
+<createdTime>2024-03-12 15:00:05 UTC</createdTime>
+<ownerDesignName>MODUL2PRAK2</ownerDesignName>
+<engineerTo>
+<item key="3E47F753-7566-4934-0FCC-A79AA29492D4" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_Detail_Pembayaran" id="0A96C411-875C-9248-7311-6C0D6C257F79">
+<createdBy>ASUS</createdBy>
+<createdTime>2024-03-12 15:11:42 UTC</createdTime>
+<ownerDesignName>MODUL2PRAK2</ownerDesignName>
+<engineerTo>
+<item key="3E47F753-7566-4934-0FCC-A79AA29492D4" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_Barang" id="662FCE50-5A2C-EDB2-062F-2A8C3362C181">
+<createdBy>ASUS</createdBy>
+<createdTime>2024-03-12 15:11:43 UTC</createdTime>
+<ownerDesignName>MODUL2PRAK2</ownerDesignName>
+<engineerTo>
+<item key="3E47F753-7566-4934-0FCC-A79AA29492D4" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Jumlah" id="1B0C8696-C168-5505-7768-37E1936B7454">
+<createdBy>ASUS</createdBy>
+<createdTime>2024-03-12 15:11:43 UTC</createdTime>
+<ownerDesignName>MODUL2PRAK2</ownerDesignName>
+<engineerTo>
+<item key="3E47F753-7566-4934-0FCC-A79AA29492D4" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Subtotal" id="B5D3AC2E-3816-9AC0-BD9D-C85B15D4B416">
+<createdBy>ASUS</createdBy>
+<createdTime>2024-03-12 15:11:45 UTC</createdTime>
+<ownerDesignName>MODUL2PRAK2</ownerDesignName>
+<engineerTo>
+<item key="3E47F753-7566-4934-0FCC-A79AA29492D4" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_pembayaran" id="A544BBAF-38DF-9A59-5609-E85125EAF21D">
+<createdBy>ASUS</createdBy>
+<createdTime>2024-03-12 15:23:52 UTC</createdTime>
+<generatorID>0FFEBE66-8737-17CC-E209-0893B1A1EB8F</generatorID>
+<ownerDesignName>MODUL2PRAK2</ownerDesignName>
+<engineerTo>
+<item key="3E47F753-7566-4934-0FCC-A79AA29492D4" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>FDD0C0EB-9A36-1B1E-3613-1AEF53329947</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="9F7DC516-BE06-E926-1864-42521682278A" name="TB_DETAIL_PEMBAYARAN PK">
+<createdBy>ASUS</createdBy>
+<createdTime>2024-03-12 15:12:19 UTC</createdTime>
+<ownerDesignName>MODUL2PRAK2</ownerDesignName>
+<engineerTo>
+<item key="3E47F753-7566-4934-0FCC-A79AA29492D4" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>0A96C411-875C-9248-7311-6C0D6C257F79</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

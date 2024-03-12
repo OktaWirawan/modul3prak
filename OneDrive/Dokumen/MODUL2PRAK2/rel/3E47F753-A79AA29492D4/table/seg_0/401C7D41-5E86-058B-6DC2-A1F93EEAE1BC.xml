@@ -1,0 +1,100 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="401C7D41-5E86-058B-6DC2-A1F93EEAE1BC" name="TB_PESANAN">
+<createdBy>ASUS</createdBy>
+<createdTime>2024-03-12 15:25:19 UTC</createdTime>
+<generatorID>A1DEE7A6-77DD-62E8-E4E9-38144CB31A37</generatorID>
+<ownerDesignName>MODUL2PRAK2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_Pemesanan" id="28C5AD00-B6B2-42DF-A7CE-C01A5CAF011E">
+<createdBy>ASUS</createdBy>
+<createdTime>2024-03-12 15:25:19 UTC</createdTime>
+<generatorID>D58506D8-0691-1C98-F8B0-B6A88C8A8019</generatorID>
+<ownerDesignName>MODUL2PRAK2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Tanggal_Order" id="C44D96E9-166F-F1C0-5B2A-2FF2FD28E0D9">
+<createdBy>ASUS</createdBy>
+<createdTime>2024-03-12 15:25:19 UTC</createdTime>
+<generatorID>8B2CC931-B620-717D-31C5-BB42428CD705</generatorID>
+<ownerDesignName>MODUL2PRAK2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TB_COSTUMER_Costumer_id1" id="46F672BA-7027-9A9E-0092-2BCAA830E785">
+<createdBy>ASUS</createdBy>
+<createdTime>2024-03-12 15:25:19 UTC</createdTime>
+<generatorID>002B1C52-F27B-0854-EC5F-4F0A4A710E70</generatorID>
+<ownerDesignName>MODUL2PRAK2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="834B7F2B-BED9-5FD2-53E2-B6CCEBD5AE9F" referredColumn="9C9A819C-3667-88AB-4B01-0FB4A0F09407"/>
+</associations>
+</Column>
+<Column name="TB_PEGAWAI_ID_Pegawai" id="C2207F7E-E18E-E94F-D6FA-2E55438A838A">
+<createdBy>ASUS</createdBy>
+<createdTime>2024-03-12 15:25:19 UTC</createdTime>
+<generatorID>BCC7DD11-B87B-1569-03EC-C80CB14D15EF</generatorID>
+<ownerDesignName>MODUL2PRAK2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BFA1D6DB-8879-3C15-3B08-099871DE1D72" referredColumn="B8BA63CC-6B0E-6516-FB51-E93C0E9D2C3E"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="65134145-0284-35A9-1D27-E0E6532DEA6B" name="TB_PESANAN_PK">
+<createdBy>ASUS</createdBy>
+<createdTime>2024-03-12 15:25:19 UTC</createdTime>
+<generatorID>9D00FDEA-C658-CEBE-D5CF-1590AA72B80C</generatorID>
+<ownerDesignName>MODUL2PRAK2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="28C5AD00-B6B2-42DF-A7CE-C01A5CAF011E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E4149B39-A01B-D289-11A9-C88EF7CF7E7A" name="TB_PESANAN_TB_COSTUMER_FK">
+<createdBy>ASUS</createdBy>
+<createdTime>2024-03-12 15:25:19 UTC</createdTime>
+<generatorID>BDBEF77F-71A1-7A4E-D6E9-D51D60608B07</generatorID>
+<ownerDesignName>MODUL2PRAK2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="46F672BA-7027-9A9E-0092-2BCAA830E785"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="89B541DF-E1B8-47AE-C547-F686D03C19F3" name="TB_PESANAN_TB_PEGAWAI_FK">
+<createdBy>ASUS</createdBy>
+<createdTime>2024-03-12 15:25:19 UTC</createdTime>
+<generatorID>8E736A68-5459-4174-C0AA-A4903ADA87CD</generatorID>
+<ownerDesignName>MODUL2PRAK2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C2207F7E-E18E-E94F-D6FA-2E55438A838A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

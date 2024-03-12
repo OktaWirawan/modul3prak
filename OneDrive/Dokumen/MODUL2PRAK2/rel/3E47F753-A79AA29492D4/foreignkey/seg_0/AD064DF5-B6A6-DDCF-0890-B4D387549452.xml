@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="AD064DF5-B6A6-DDCF-0890-B4D387549452" containerWithKeyObject="D1C70813-6B71-848B-DFE8-95BE4EF82181" localFKIndex="32C4F4E6-5EE8-FFE6-4FF1-65B261725938" name="TB_PEMBAYARAN_TB_PRODUK_FK">
+<createdBy>ASUS</createdBy>
+<createdTime>2024-03-12 15:25:19 UTC</createdTime>
+<generatorID>B53426CE-8E0A-3D73-9E5E-4C895A867F79</generatorID>
+<ownerDesignName>MODUL2PRAK2</ownerDesignName>
+<referredTableLongName>TB_PRODUK</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>E1D45A8D-E5EA-78DF-237E-F7FB518C68FB</referredTableID>
+<keyObject>EC68D9A1-61F0-1EFE-0F5B-C91C93DE7047</keyObject>
+<referredKeyID>EC68D9A1-61F0-1EFE-0F5B-C91C93DE7047</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_Barang</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

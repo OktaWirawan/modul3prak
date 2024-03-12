@@ -1,0 +1,99 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="06D0EB12-8EBA-B82F-49F1-960990F9B69D" name="TB_DETAIL_PEMBAYARAN">
+<createdBy>ASUS</createdBy>
+<createdTime>2024-03-12 15:25:19 UTC</createdTime>
+<generatorID>47A78234-EE78-09D0-4DC3-9996F1031758</generatorID>
+<ownerDesignName>MODUL2PRAK2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_Detail_Pembayaran" id="5678E11F-AB90-BF72-9771-F303169C2527">
+<createdBy>ASUS</createdBy>
+<createdTime>2024-03-12 15:25:19 UTC</createdTime>
+<generatorID>0A96C411-875C-9248-7311-6C0D6C257F79</generatorID>
+<ownerDesignName>MODUL2PRAK2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_Barang" id="6F5BF104-070B-5A77-CFA7-B54175EF974B">
+<createdBy>ASUS</createdBy>
+<createdTime>2024-03-12 15:25:19 UTC</createdTime>
+<generatorID>662FCE50-5A2C-EDB2-062F-2A8C3362C181</generatorID>
+<ownerDesignName>MODUL2PRAK2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Jumlah" id="96880771-ABE9-8457-4075-B90FB3806FF4">
+<createdBy>ASUS</createdBy>
+<createdTime>2024-03-12 15:25:19 UTC</createdTime>
+<generatorID>1B0C8696-C168-5505-7768-37E1936B7454</generatorID>
+<ownerDesignName>MODUL2PRAK2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Subtotal" id="05945562-64D8-1D17-6B11-0A09C4BCDF0D">
+<createdBy>ASUS</createdBy>
+<createdTime>2024-03-12 15:25:19 UTC</createdTime>
+<generatorID>B5D3AC2E-3816-9AC0-BD9D-C85B15D4B416</generatorID>
+<ownerDesignName>MODUL2PRAK2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TB_PEMBAYARAN_ID_pembayaran" id="E0A94EC5-70D4-9B4B-1421-5B277EC51921">
+<createdBy>ASUS</createdBy>
+<createdTime>2024-03-12 15:25:19 UTC</createdTime>
+<generatorID>A544BBAF-38DF-9A59-5609-E85125EAF21D</generatorID>
+<ownerDesignName>MODUL2PRAK2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C385B18B-3B41-2F50-6EBF-506F123BD51C" referredColumn="957BBCE4-88BE-E850-B3DF-FE17B901D22C"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E61BCDDF-7289-6BCA-CD7D-D9D95D2D5553" name="TB_DETAIL_PEMBAYARAN_PK">
+<createdBy>ASUS</createdBy>
+<createdTime>2024-03-12 15:25:19 UTC</createdTime>
+<generatorID>9F7DC516-BE06-E926-1864-42521682278A</generatorID>
+<ownerDesignName>MODUL2PRAK2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5678E11F-AB90-BF72-9771-F303169C2527"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="37D8BE07-8871-2575-71A7-B0217C65A05D" name="TB_DETAIL_PEMBAYARAN_TB_PEMBAYARAN_FK">
+<createdBy>ASUS</createdBy>
+<createdTime>2024-03-12 15:25:19 UTC</createdTime>
+<generatorID>0FFEBE66-8737-17CC-E209-0893B1A1EB8F</generatorID>
+<ownerDesignName>MODUL2PRAK2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E0A94EC5-70D4-9B4B-1421-5B277EC51921"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

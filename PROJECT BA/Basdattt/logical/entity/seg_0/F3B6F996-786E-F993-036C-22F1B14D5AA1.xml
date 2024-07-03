@@ -1,0 +1,125 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="F3B6F996-786E-F993-036C-22F1B14D5AA1" name="ORGDERS">
+<createdBy>ASUS</createdBy>
+<createdTime>2024-07-01 16:15:24 UTC</createdTime>
+<ownerDesignName>Basdattt</ownerDesignName>
+<engineerTo>
+<item key="D6307846-DE8B-7DAE-FB1E-630AAC7DD8EC" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ORDERS ID" id="CAA4CDEC-1724-9D46-3FDA-DBE427D5A5F7">
+<createdBy>ASUS</createdBy>
+<createdTime>2024-07-01 16:15:46 UTC</createdTime>
+<ownerDesignName>Basdattt</ownerDesignName>
+<engineerTo>
+<item key="D6307846-DE8B-7DAE-FB1E-630AAC7DD8EC" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="USER ID" id="4540EDCD-9314-9E1A-6B39-77257F9BE590">
+<createdBy>ASUS</createdBy>
+<createdTime>2024-07-01 16:16:57 UTC</createdTime>
+<ownerDesignName>Basdattt</ownerDesignName>
+<engineerTo>
+<item key="D6307846-DE8B-7DAE-FB1E-630AAC7DD8EC" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="TOTAL PRICE" id="0605D485-3718-1078-3BD4-ACB825D79AE1">
+<createdBy>ASUS</createdBy>
+<createdTime>2024-07-01 16:17:19 UTC</createdTime>
+<ownerDesignName>Basdattt</ownerDesignName>
+<engineerTo>
+<item key="D6307846-DE8B-7DAE-FB1E-630AAC7DD8EC" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="STATUS" id="74BEB2DE-79C2-EA74-0BCE-961110351429">
+<createdBy>ASUS</createdBy>
+<createdTime>2024-07-01 16:18:00 UTC</createdTime>
+<ownerDesignName>Basdattt</ownerDesignName>
+<engineerTo>
+<item key="D6307846-DE8B-7DAE-FB1E-630AAC7DD8EC" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>6 BYTE</dataTypeSize>
+<ownDataTypeParameters>6 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="TIMESTAMPS" id="31437991-2D61-DAB0-BF25-D392C7EBC71D">
+<createdBy>ASUS</createdBy>
+<createdTime>2024-07-01 16:18:33 UTC</createdTime>
+<ownerDesignName>Basdattt</ownerDesignName>
+<engineerTo>
+<item key="D6307846-DE8B-7DAE-FB1E-630AAC7DD8EC" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="EXPRIRES AT" id="8053B080-649B-7FC1-1F4F-01F5BCC4AF91">
+<createdBy>ASUS</createdBy>
+<createdTime>2024-07-01 16:19:38 UTC</createdTime>
+<ownerDesignName>Basdattt</ownerDesignName>
+<engineerTo>
+<item key="D6307846-DE8B-7DAE-FB1E-630AAC7DD8EC" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="BUKTI TRANSFER" id="30F3A2D1-9350-CA8C-2E32-9E46BF57305E">
+<createdBy>ASUS</createdBy>
+<createdTime>2024-07-01 16:20:16 UTC</createdTime>
+<ownerDesignName>Basdattt</ownerDesignName>
+<engineerTo>
+<item key="D6307846-DE8B-7DAE-FB1E-630AAC7DD8EC" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="359BF154-E8B2-FC3D-82B3-A85A765A86F7" name="ORGDERS PK">
+<createdBy>ASUS</createdBy>
+<createdTime>2024-07-01 16:16:52 UTC</createdTime>
+<ownerDesignName>Basdattt</ownerDesignName>
+<engineerTo>
+<item key="D6307846-DE8B-7DAE-FB1E-630AAC7DD8EC" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>CAA4CDEC-1724-9D46-3FDA-DBE427D5A5F7</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="PRODUCTS ORGDERS FK" directorySegmentName="seg_0" id="363C960C-DFD3-41A9-3654-CEF48A096621">
+<createdBy>ASUS</createdBy>
+<createdTime>2024-07-01 16:43:28 UTC</createdTime>
+<ownerDesignName>Basdattt</ownerDesignName>
+<engineerTo>
+<item key="D6307846-DE8B-7DAE-FB1E-630AAC7DD8EC" value="true"/>
+</engineerTo>
+<sourcePk>359BF154-E8B2-FC3D-82B3-A85A765A86F7</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>F3B6F996-786E-F993-036C-22F1B14D5AA1</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>922B895D-3C81-CEF4-FE57-04DA9B0642FD</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

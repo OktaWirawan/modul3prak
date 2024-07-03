@@ -63,6 +63,7 @@
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="ID_Barang" id="1FDC237A-9BB6-4665-3360-E7FE6BD6762A">
@@ -79,14 +80,29 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="ID_Detail_Pembayaran" id="A2C09E87-CD8B-E3FC-4C8C-32BDF214F9F1">
+<createdBy>ASUS</createdBy>
+<createdTime>2024-03-13 04:15:13 UTC</createdTime>
+<generatorID>0FFEBE66-8737-17CC-E209-0893B1A1EB8F</generatorID>
+<ownerDesignName>TOKO_PERTANIAN</ownerDesignName>
+<engineerTo>
+<item key="3E47F753-7566-4934-0FCC-A79AA29492D4" value="true"/>
+</engineerTo>
+<referedAttribute>0A96C411-875C-9248-7311-6C0D6C257F79</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="2AD712AE-4BFE-F3DD-0E8D-B9C69DB72B50" name="TB_PEMBAYARAN PK">
 <createdBy>ASUS</createdBy>
 <createdTime>2024-03-12 15:19:03 UTC</createdTime>
 <ownerDesignName>TOKO_PERTANIAN</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="3E47F753-7566-4934-0FCC-A79AA29492D4" value="true"/>
+<item key="3E47F753-7566-4934-0FCC-A79AA29492D4" value="false"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>

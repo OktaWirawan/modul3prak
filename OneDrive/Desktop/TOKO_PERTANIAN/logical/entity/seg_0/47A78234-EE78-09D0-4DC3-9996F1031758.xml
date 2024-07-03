@@ -62,22 +62,7 @@
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="ID_pembayaran" id="A544BBAF-38DF-9A59-5609-E85125EAF21D">
-<createdBy>ASUS</createdBy>
-<createdTime>2024-03-12 15:23:52 UTC</createdTime>
-<generatorID>0FFEBE66-8737-17CC-E209-0893B1A1EB8F</generatorID>
-<ownerDesignName>TOKO_PERTANIAN</ownerDesignName>
-<engineerTo>
-<item key="3E47F753-7566-4934-0FCC-A79AA29492D4" value="true"/>
-</engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<referedAttribute>FDD0C0EB-9A36-1B1E-3613-1AEF53329947</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
+<logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
@@ -86,8 +71,9 @@
 <createdBy>ASUS</createdBy>
 <createdTime>2024-03-12 15:12:19 UTC</createdTime>
 <ownerDesignName>TOKO_PERTANIAN</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="3E47F753-7566-4934-0FCC-A79AA29492D4" value="true"/>
+<item key="3E47F753-7566-4934-0FCC-A79AA29492D4" value="false"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>

@@ -15,7 +15,7 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="Costumer_id1" id="1E1391F5-860D-87EC-181B-075926EAEAE5">
+<Attribute name="Costumer_id" id="1E1391F5-860D-87EC-181B-075926EAEAE5">
 <createdBy>ASUS</createdBy>
 <createdTime>2024-03-12 15:01:36 UTC</createdTime>
 <ownerDesignName>TOKO_PERTANIAN</ownerDesignName>
@@ -73,8 +73,9 @@
 <createdBy>ASUS</createdBy>
 <createdTime>2024-03-12 15:02:15 UTC</createdTime>
 <ownerDesignName>TOKO_PERTANIAN</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="3E47F753-7566-4934-0FCC-A79AA29492D4" value="true"/>
+<item key="3E47F753-7566-4934-0FCC-A79AA29492D4" value="false"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>

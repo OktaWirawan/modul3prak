@@ -1,0 +1,113 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="FCD21040-720B-4744-0874-48F8079B257C" name="USERS">
+<createdBy>ASUS</createdBy>
+<createdTime>2024-07-01 16:44:09 UTC</createdTime>
+<generatorID>EDC44E8C-473C-39A1-E9F1-BCECEACFCC15</generatorID>
+<ownerDesignName>PROJECT</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="USERS_ID" id="18EBEDFF-1D75-8331-E692-10CF535EE4E0">
+<createdBy>ASUS</createdBy>
+<createdTime>2024-07-01 16:44:09 UTC</createdTime>
+<generatorID>6D7AEED7-2B46-A314-9A02-ECACB3FA571F</generatorID>
+<ownerDesignName>PROJECT</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NAME" id="11F9453D-EBE8-430A-6E29-C66FCFCC4F4F">
+<createdBy>ASUS</createdBy>
+<createdTime>2024-07-01 16:44:09 UTC</createdTime>
+<generatorID>A5E7CAFE-5AFB-070B-A912-DADF98D7822E</generatorID>
+<ownerDesignName>PROJECT</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="EMAIL" id="994F95B6-F5D7-250F-2CEF-A774F7A55837">
+<createdBy>ASUS</createdBy>
+<createdTime>2024-07-01 16:44:09 UTC</createdTime>
+<generatorID>EB010534-EA9E-B287-BA8E-339E22F0B2D1</generatorID>
+<ownerDesignName>PROJECT</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="EMAIL_VERIGIRD_AT" id="C0A59E69-1A6D-4F94-DF02-DF30C4B41B61">
+<createdBy>ASUS</createdBy>
+<createdTime>2024-07-01 16:44:09 UTC</createdTime>
+<generatorID>41968AB3-8233-71FE-AF52-3B479D885D0D</generatorID>
+<ownerDesignName>PROJECT</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PASSWORD" id="7AEC4985-0EC2-F4EA-E533-829A9FDE845C">
+<createdBy>ASUS</createdBy>
+<createdTime>2024-07-01 16:44:09 UTC</createdTime>
+<generatorID>D22244D6-ACED-0097-75AD-51BE39AD4DDF</generatorID>
+<ownerDesignName>PROJECT</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ROLE" id="71CA8227-6D6D-03ED-8DAD-F0E723C5DACC">
+<createdBy>ASUS</createdBy>
+<createdTime>2024-07-01 16:44:09 UTC</createdTime>
+<generatorID>AB4E60C8-E9AC-CE1B-1F3A-9996684EC927</generatorID>
+<ownerDesignName>PROJECT</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TIMESTAMPS" id="A3E6047D-0AE9-8C69-64E0-1D54D70E1FDC">
+<createdBy>ASUS</createdBy>
+<createdTime>2024-07-01 16:44:09 UTC</createdTime>
+<generatorID>AF47E74C-71E4-8C92-BE44-446483FAA294</generatorID>
+<ownerDesignName>PROJECT</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="8B868EC6-006A-7313-D516-232B2F204E0F" name="USERS_PK">
+<createdBy>ASUS</createdBy>
+<createdTime>2024-07-01 16:44:09 UTC</createdTime>
+<generatorID>5CBB2641-4F6C-1600-62AF-BE7A9571D0D9</generatorID>
+<ownerDesignName>PROJECT</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="18EBEDFF-1D75-8331-E692-10CF535EE4E0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

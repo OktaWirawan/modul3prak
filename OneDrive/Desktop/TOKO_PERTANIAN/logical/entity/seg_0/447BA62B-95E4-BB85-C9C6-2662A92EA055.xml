@@ -78,6 +78,20 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="ID_Promo" id="99CE4EA7-26C5-E4FE-5272-2A197DE70389">
+<createdBy>ASUS</createdBy>
+<createdTime>2024-03-13 04:13:30 UTC</createdTime>
+<generatorID>9E95A3CB-2B65-3615-41AC-43F86B9211A7</generatorID>
+<ownerDesignName>TOKO_PERTANIAN</ownerDesignName>
+<engineerTo>
+<item key="3E47F753-7566-4934-0FCC-A79AA29492D4" value="true"/>
+</engineerTo>
+<referedAttribute>8FCBDF17-3CD6-A9B1-A878-46F8B479FCBF</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="A6A94D2A-7377-5E43-1C2A-4840DE3D0BCE" name="TB_PRODUK PK">

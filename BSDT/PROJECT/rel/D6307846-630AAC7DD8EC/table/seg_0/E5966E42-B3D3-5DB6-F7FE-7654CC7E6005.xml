@@ -1,0 +1,111 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E5966E42-B3D3-5DB6-F7FE-7654CC7E6005" name="ORGDERS">
+<createdBy>ASUS</createdBy>
+<createdTime>2024-07-01 16:44:09 UTC</createdTime>
+<generatorID>F3B6F996-786E-F993-036C-22F1B14D5AA1</generatorID>
+<ownerDesignName>PROJECT</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ORDERS_ID" id="82B5BAC3-ACCA-3C25-3B3A-793657F4E512">
+<createdBy>ASUS</createdBy>
+<createdTime>2024-07-01 16:44:09 UTC</createdTime>
+<generatorID>CAA4CDEC-1724-9D46-3FDA-DBE427D5A5F7</generatorID>
+<ownerDesignName>PROJECT</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="USER_ID" id="AF3868D5-5C9D-E014-51DF-E1FD462776F8">
+<createdBy>ASUS</createdBy>
+<createdTime>2024-07-01 16:44:09 UTC</createdTime>
+<generatorID>4540EDCD-9314-9E1A-6B39-77257F9BE590</generatorID>
+<ownerDesignName>PROJECT</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TOTAL_PRICE" id="8EE59103-8AF3-8882-370F-FDF3625792AB">
+<createdBy>ASUS</createdBy>
+<createdTime>2024-07-01 16:44:09 UTC</createdTime>
+<generatorID>0605D485-3718-1078-3BD4-ACB825D79AE1</generatorID>
+<ownerDesignName>PROJECT</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="STATUS" id="937099C3-C445-1D63-CF47-A35B331A0A41">
+<createdBy>ASUS</createdBy>
+<createdTime>2024-07-01 16:44:09 UTC</createdTime>
+<generatorID>74BEB2DE-79C2-EA74-0BCE-961110351429</generatorID>
+<ownerDesignName>PROJECT</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>6 BYTE</dataTypeSize>
+<ownDataTypeParameters>6 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TIMESTAMPS" id="BDFF7D3B-0D53-E3F0-2C42-6AAB1C6CF976">
+<createdBy>ASUS</createdBy>
+<createdTime>2024-07-01 16:44:09 UTC</createdTime>
+<generatorID>31437991-2D61-DAB0-BF25-D392C7EBC71D</generatorID>
+<ownerDesignName>PROJECT</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="EXPRIRES_AT" id="FF7BA93D-6DCC-E987-C808-061DF6659795">
+<createdBy>ASUS</createdBy>
+<createdTime>2024-07-01 16:44:09 UTC</createdTime>
+<generatorID>8053B080-649B-7FC1-1F4F-01F5BCC4AF91</generatorID>
+<ownerDesignName>PROJECT</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="BUKTI_TRANSFER" id="B31775E7-264C-6DA4-A3DB-9B3CBA107237">
+<createdBy>ASUS</createdBy>
+<createdTime>2024-07-01 16:44:09 UTC</createdTime>
+<generatorID>30F3A2D1-9350-CA8C-2E32-9E46BF57305E</generatorID>
+<ownerDesignName>PROJECT</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7304A6D5-C39F-CF21-2299-1296BF6882C0" name="ORGDERS_PK">
+<createdBy>ASUS</createdBy>
+<createdTime>2024-07-01 16:44:09 UTC</createdTime>
+<generatorID>359BF154-E8B2-FC3D-82B3-A85A765A86F7</generatorID>
+<ownerDesignName>PROJECT</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="82B5BAC3-ACCA-3C25-3B3A-793657F4E512"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

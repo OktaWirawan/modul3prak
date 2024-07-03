@@ -1,0 +1,102 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="453DA0FC-7FF5-E043-3D7B-527D14966452" name="CATEGORIES">
+<createdBy>ASUS</createdBy>
+<createdTime>2024-07-01 16:44:09 UTC</createdTime>
+<generatorID>3694E9B1-9005-F676-EF93-CDD3C73B7918</generatorID>
+<ownerDesignName>BASISDATA</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CATEGORIES_ID" id="8BDB7377-9737-8DCF-7466-EB08DCD171B0">
+<createdBy>ASUS</createdBy>
+<createdTime>2024-07-01 16:44:09 UTC</createdTime>
+<generatorID>88C86AF7-6288-5236-B3B5-3556B5400355</generatorID>
+<ownerDesignName>BASISDATA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="COLUMN1" id="2A4AF697-DF3F-B02A-457E-24E48E743C67">
+<createdBy>ASUS</createdBy>
+<createdTime>2024-07-01 16:44:09 UTC</createdTime>
+<generatorID>EBB785D6-460B-FE4F-A503-B6681A634663</generatorID>
+<ownerDesignName>BASISDATA</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PHOTO" id="642C96DB-5238-3824-9524-944F0FF39C88">
+<createdBy>ASUS</createdBy>
+<createdTime>2024-07-01 16:44:09 UTC</createdTime>
+<generatorID>6F3FED38-3EE8-F5B4-212E-547C7D1751FB</generatorID>
+<ownerDesignName>BASISDATA</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SLUG" id="5ADD5E18-72F4-3407-E8C7-13C8AC02663C">
+<createdBy>ASUS</createdBy>
+<createdTime>2024-07-01 16:44:09 UTC</createdTime>
+<generatorID>B877B646-D6AE-9A6E-249F-5E5D89A2B971</generatorID>
+<ownerDesignName>BASISDATA</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="USERS_USERS_ID" id="8581EE35-DF10-7860-F639-10967B8237B7">
+<createdBy>ASUS</createdBy>
+<createdTime>2024-07-01 16:44:09 UTC</createdTime>
+<generatorID>10A9DCA2-6858-7354-60CA-C3876507092B</generatorID>
+<ownerDesignName>BASISDATA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8835F9DF-2F57-56B3-D6A0-70D1FA15394F" referredColumn="18EBEDFF-1D75-8331-E692-10CF535EE4E0"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="5C8EDFC8-BC9E-38A0-B5BA-0ECE15617C98" name="CATEGORIES_PK">
+<createdBy>ASUS</createdBy>
+<createdTime>2024-07-01 16:44:09 UTC</createdTime>
+<generatorID>F9AE173A-E9C6-F53E-FDA6-E86CA6303776</generatorID>
+<ownerDesignName>BASISDATA</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8BDB7377-9737-8DCF-7466-EB08DCD171B0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="EC3C372E-1C4A-8286-E301-107F7196BF89" name="CATEGORIES_USERS_FK">
+<createdBy>ASUS</createdBy>
+<createdTime>2024-07-01 16:44:09 UTC</createdTime>
+<generatorID>828F69A7-8644-E5EE-FD30-B7D1970C13A1</generatorID>
+<ownerDesignName>BASISDATA</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8581EE35-DF10-7860-F639-10967B8237B7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

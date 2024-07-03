@@ -1,0 +1,101 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="3694E9B1-9005-F676-EF93-CDD3C73B7918" name="CATEGORIES">
+<createdBy>ASUS</createdBy>
+<createdTime>2024-07-01 16:08:03 UTC</createdTime>
+<ownerDesignName>BASISDATA</ownerDesignName>
+<engineerTo>
+<item key="D6307846-DE8B-7DAE-FB1E-630AAC7DD8EC" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="CATEGORIES_ID" id="88C86AF7-6288-5236-B3B5-3556B5400355">
+<createdBy>ASUS</createdBy>
+<createdTime>2024-07-01 16:11:22 UTC</createdTime>
+<ownerDesignName>BASISDATA</ownerDesignName>
+<engineerTo>
+<item key="D6307846-DE8B-7DAE-FB1E-630AAC7DD8EC" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="COLUMN1" id="EBB785D6-460B-FE4F-A503-B6681A634663">
+<createdBy>ASUS</createdBy>
+<createdTime>2024-07-01 16:12:49 UTC</createdTime>
+<ownerDesignName>BASISDATA</ownerDesignName>
+<engineerTo>
+<item key="D6307846-DE8B-7DAE-FB1E-630AAC7DD8EC" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PHOTO" id="6F3FED38-3EE8-F5B4-212E-547C7D1751FB">
+<createdBy>ASUS</createdBy>
+<createdTime>2024-07-01 16:13:36 UTC</createdTime>
+<ownerDesignName>BASISDATA</ownerDesignName>
+<engineerTo>
+<item key="D6307846-DE8B-7DAE-FB1E-630AAC7DD8EC" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="SLUG" id="B877B646-D6AE-9A6E-249F-5E5D89A2B971">
+<createdBy>ASUS</createdBy>
+<createdTime>2024-07-01 16:14:16 UTC</createdTime>
+<ownerDesignName>BASISDATA</ownerDesignName>
+<engineerTo>
+<item key="D6307846-DE8B-7DAE-FB1E-630AAC7DD8EC" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="USERS_ID" id="10A9DCA2-6858-7354-60CA-C3876507092B">
+<createdBy>ASUS</createdBy>
+<createdTime>2024-07-01 16:43:59 UTC</createdTime>
+<generatorID>828F69A7-8644-E5EE-FD30-B7D1970C13A1</generatorID>
+<ownerDesignName>BASISDATA</ownerDesignName>
+<engineerTo>
+<item key="D6307846-DE8B-7DAE-FB1E-630AAC7DD8EC" value="true"/>
+</engineerTo>
+<referedAttribute>6D7AEED7-2B46-A314-9A02-ECACB3FA571F</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="F9AE173A-E9C6-F53E-FDA6-E86CA6303776" name="CATEGORIES PK">
+<createdBy>ASUS</createdBy>
+<createdTime>2024-07-01 16:12:45 UTC</createdTime>
+<ownerDesignName>BASISDATA</ownerDesignName>
+<engineerTo>
+<item key="D6307846-DE8B-7DAE-FB1E-630AAC7DD8EC" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>88C86AF7-6288-5236-B3B5-3556B5400355</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

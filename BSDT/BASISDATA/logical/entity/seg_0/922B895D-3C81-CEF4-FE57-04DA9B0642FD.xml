@@ -1,0 +1,196 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="922B895D-3C81-CEF4-FE57-04DA9B0642FD" name="PRODUCTS">
+<createdBy>ASUS</createdBy>
+<createdTime>2024-07-01 16:21:08 UTC</createdTime>
+<ownerDesignName>BASISDATA</ownerDesignName>
+<engineerTo>
+<item key="D6307846-DE8B-7DAE-FB1E-630AAC7DD8EC" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="PRODUCTS_ID" id="48536D69-A953-98F9-B161-DE0EB8CDBCBD">
+<createdBy>ASUS</createdBy>
+<createdTime>2024-07-01 16:22:06 UTC</createdTime>
+<ownerDesignName>BASISDATA</ownerDesignName>
+<engineerTo>
+<item key="D6307846-DE8B-7DAE-FB1E-630AAC7DD8EC" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NAME" id="356701CC-5168-FBED-8D33-0A851E038E37">
+<createdBy>ASUS</createdBy>
+<createdTime>2024-07-01 16:23:04 UTC</createdTime>
+<ownerDesignName>BASISDATA</ownerDesignName>
+<engineerTo>
+<item key="D6307846-DE8B-7DAE-FB1E-630AAC7DD8EC" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="TUMBNAIL" id="1D58FE50-F5A0-F2B7-B336-9F481585A6EC">
+<createdBy>ASUS</createdBy>
+<createdTime>2024-07-01 16:25:23 UTC</createdTime>
+<ownerDesignName>BASISDATA</ownerDesignName>
+<engineerTo>
+<item key="D6307846-DE8B-7DAE-FB1E-630AAC7DD8EC" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DESCRIPTION" id="4522E89E-D916-225B-A4C2-5FC1583608E8">
+<createdBy>ASUS</createdBy>
+<createdTime>2024-07-01 16:26:16 UTC</createdTime>
+<ownerDesignName>BASISDATA</ownerDesignName>
+<engineerTo>
+<item key="D6307846-DE8B-7DAE-FB1E-630AAC7DD8EC" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ADD_DESCROPTION" id="64DA064C-3337-9A4E-75BC-1369733754C6">
+<createdBy>ASUS</createdBy>
+<createdTime>2024-07-01 16:27:34 UTC</createdTime>
+<ownerDesignName>BASISDATA</ownerDesignName>
+<engineerTo>
+<item key="D6307846-DE8B-7DAE-FB1E-630AAC7DD8EC" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_CATEGORIES" id="A9542BE2-750C-F24F-937E-69CD91A8F373">
+<createdBy>ASUS</createdBy>
+<createdTime>2024-07-01 16:28:14 UTC</createdTime>
+<ownerDesignName>BASISDATA</ownerDesignName>
+<engineerTo>
+<item key="D6307846-DE8B-7DAE-FB1E-630AAC7DD8EC" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="HARGA_NORMAL" id="6419A53F-F403-BB1B-362B-85D7752F944A">
+<createdBy>ASUS</createdBy>
+<createdTime>2024-07-01 16:28:51 UTC</createdTime>
+<ownerDesignName>BASISDATA</ownerDesignName>
+<engineerTo>
+<item key="D6307846-DE8B-7DAE-FB1E-630AAC7DD8EC" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="HARGA_DISKON" id="8068B12C-2CFA-A1E8-CFE0-BB8FC4FA58F6">
+<createdBy>ASUS</createdBy>
+<createdTime>2024-07-01 16:29:32 UTC</createdTime>
+<ownerDesignName>BASISDATA</ownerDesignName>
+<engineerTo>
+<item key="D6307846-DE8B-7DAE-FB1E-630AAC7DD8EC" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="STATUS" id="0CD42F12-B2A9-38F1-F3DC-F389E32A8049">
+<createdBy>ASUS</createdBy>
+<createdTime>2024-07-01 16:30:18 UTC</createdTime>
+<ownerDesignName>BASISDATA</ownerDesignName>
+<engineerTo>
+<item key="D6307846-DE8B-7DAE-FB1E-630AAC7DD8EC" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="SLUG" id="DD4E6606-7FC5-EFBD-84DC-536E6DC7C23F">
+<createdBy>ASUS</createdBy>
+<createdTime>2024-07-01 16:31:04 UTC</createdTime>
+<ownerDesignName>BASISDATA</ownerDesignName>
+<engineerTo>
+<item key="D6307846-DE8B-7DAE-FB1E-630AAC7DD8EC" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CATEGORIES_ID" id="B1753690-FB40-6943-AF2C-48C5E705A679">
+<createdBy>ASUS</createdBy>
+<createdTime>2024-07-01 16:43:13 UTC</createdTime>
+<generatorID>C8C453BE-CA9F-E4BA-0B49-176A2073AD53</generatorID>
+<ownerDesignName>BASISDATA</ownerDesignName>
+<engineerTo>
+<item key="D6307846-DE8B-7DAE-FB1E-630AAC7DD8EC" value="true"/>
+</engineerTo>
+<referedAttribute>88C86AF7-6288-5236-B3B5-3556B5400355</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ORDERS_ID" id="4A4B19CB-AB2B-D62C-DE57-F13CEA35BF55">
+<createdBy>ASUS</createdBy>
+<createdTime>2024-07-01 16:43:28 UTC</createdTime>
+<generatorID>363C960C-DFD3-41A9-3654-CEF48A096621</generatorID>
+<ownerDesignName>BASISDATA</ownerDesignName>
+<engineerTo>
+<item key="D6307846-DE8B-7DAE-FB1E-630AAC7DD8EC" value="true"/>
+</engineerTo>
+<referedAttribute>CAA4CDEC-1724-9D46-3FDA-DBE427D5A5F7</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="7C3A61AC-3C03-325C-8251-14CB9FBBE976" name="PRODUCTS PK">
+<createdBy>ASUS</createdBy>
+<createdTime>2024-07-01 16:23:01 UTC</createdTime>
+<ownerDesignName>BASISDATA</ownerDesignName>
+<engineerTo>
+<item key="D6307846-DE8B-7DAE-FB1E-630AAC7DD8EC" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>48536D69-A953-98F9-B161-DE0EB8CDBCBD</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
